@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    color: yellowgreen;
+}
+label{
+    color: #bfd63c;
+}
+body
+{
+    margin: 20px;
+    background-color:rgb(0.2,1.0,.9);
+}
