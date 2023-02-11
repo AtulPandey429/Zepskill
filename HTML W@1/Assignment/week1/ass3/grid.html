@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        color: wheat;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        grid-template-columns: 100px auto;
+        grid-template-rows:30px 30px;
+        /* grid-gap: 5px ; */
+        width:100%;
+        text-align: center;
+        height:10vh;
+        margin: 0;
+        /* background: rgb(230, 129, 129); */
+    /* overflow: ; */
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        grid-template-rows:30px;
+        text-align: center;
+        /* grid-gap: 5px ; */
+        width:100%;
+        height:10vh;
+        color: wheat;
+        margin-top:-30px;
+        overflow: hidden;
+        /* background: rgb(230, 129, 129);  */
+    }
+    .item1{
+        /* color: wheat; */
+        background: rgb(137, 232, 42);
+    }
+    .item2{
+        background: teal;
+    }
+    .item3{
+        background: rgb(16, 151, 248);
+    }
+    .item4{
+        background: rgb(155, 7, 128);
+    }
+    
+    .item5{
+        background: rgb(24, 165, 149);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="items item1"> One Third</div>
+        <div class="items item2">Two Thirds</div>
+    </div>
+        <div class="container2">
+            <div class="items item3">One Quarter</div>
+            <div class="items item4">One Half</div>
+            <div class="items item5">One Quarter</div>
+
+        </div>
+
+       
+        
+    
+</body>
+</html>
